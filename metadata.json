@@ -1,0 +1,6 @@
+{
+  "name": "Health Club Gym",
+  "description": "Premium Gym and Fitness Center in Ballia, Uttar Pradesh. Offers Strength Training, Cardio Zone, Weight Loss, Muscle Building, and expert guidance.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+@theme {
+  --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Space Grotesk', system-ui, sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* Elegant Dark utilities */
+.text-stroke-white {
+  -webkit-text-stroke: 1px currentColor;
+}
+
+/* Custom scrollbar styling for premium dark UI feedback */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #050505;
+}
+::-webkit-scrollbar-thumb {
+  background: #1f1f1f;
+  border-radius: 9999px;
+  border: 2px solid #050505;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #dc2626;
+}
